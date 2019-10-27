@@ -1,0 +1,10 @@
+bootstrap_url: http://dcos-bootstrap:80
+cluster_name: saturn
+exhibitor_storage_backend: static
+master_discovery: static
+ip_detect_public_filename: genconf/ip-detect
+master_list:
+- 192.168.100.100
+resolvers:
+- 1.1.1.1
+- 8.8.8.8
